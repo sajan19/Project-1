@@ -13,6 +13,7 @@ import { HomePageComponent} from './Components/home-page/home-page.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { PressComponent } from './Components/press/press.component';
+import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 
 
 
@@ -23,7 +24,8 @@ import { PressComponent } from './Components/press/press.component';
     HeaderComponent,
     FooterComponent,
     HomePageComponent,
-    PressComponent
+    PressComponent,
+    AboutDlcComponent
   ],
   imports: [
     BrowserModule,
