@@ -7,7 +7,14 @@ import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
-import { HomePageComponent } from './Components/home-page/home-page.component';
+import {MatCardModule} from '@angular/material/card';
+import {NgImageSliderModule} from 'ng-image-slider';
+import { HomePageComponent} from './Components/home-page/home-page.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+
+
+
 
 @NgModule({
   declarations: [
@@ -20,7 +27,13 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule,
+    NgImageSliderModule,
+    MatButtonModule,
+    MatToolbarModule
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
