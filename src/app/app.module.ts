@@ -15,6 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { PressComponent } from './Components/press/press.component';
 import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
+import { ExperiencesComponent } from './Components/experiences/experiences.component';
 
 
 
@@ -27,7 +28,8 @@ import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component
     HomePageComponent,
     PressComponent,
     AboutDlcComponent,
-    OurWorldsComponent
+    OurWorldsComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,
