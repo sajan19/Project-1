@@ -12,6 +12,7 @@ import {NgImageSliderModule} from 'ng-image-slider';
 import { HomePageComponent} from './Components/home-page/home-page.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import { PressComponent } from './Components/press/press.component';
 
 
 
@@ -21,7 +22,8 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomePageComponent
+    HomePageComponent,
+    PressComponent
   ],
   imports: [
     BrowserModule,
