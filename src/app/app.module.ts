@@ -14,6 +14,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { PressComponent } from './Components/press/press.component';
 import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
+import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 
 
 
@@ -25,7 +26,8 @@ import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
     FooterComponent,
     HomePageComponent,
     PressComponent,
-    AboutDlcComponent
+    AboutDlcComponent,
+    OurWorldsComponent
   ],
   imports: [
     BrowserModule,
