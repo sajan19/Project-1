@@ -34,7 +34,7 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
     GalleryComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
