@@ -16,6 +16,7 @@ import { PressComponent } from './Components/press/press.component';
 import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 import { ExperiencesComponent } from './Components/experiences/experiences.component';
+import { GalleryComponent } from './Components/gallery/gallery.component';
 
 
 
@@ -29,7 +30,8 @@ import { ExperiencesComponent } from './Components/experiences/experiences.compo
     PressComponent,
     AboutDlcComponent,
     OurWorldsComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
