@@ -99,7 +99,6 @@
     // margin: 10px;
     z-index: -1;
 }
-
 .title {
     @include title(45%, 5.5rem);
     padding-bottom: 20px;
@@ -107,22 +106,20 @@
 .subtitle {
     @include title(55%, 4.5rem);
 }
-
-.card_title {
+@mixin cardTitle {
     position: relative;
     bottom: 100px;
     left: 60px;
     color: white;
+    
+}
+.card_title {
+    @include cardTitle();
 }
 .card_subtitle {
-    position: relative;
-    bottom: 100px;
-    left: 60px;
-    color: white;
+    @include cardTitle();
 }
 .mat-card {
-    //   border: 2px solid red;
-    //   display: block;
     height: fit-content;
 }
 
@@ -209,10 +206,7 @@
 }
 
 .container_6 {
-    // border: 2px solid purple;
-    // background-color: yellow;
-    height: 100vh;
-    width: 100wh;
+    @include container();
     // background-color: pink;
     display: flex;
     flex-direction: row;
@@ -224,14 +218,11 @@
 .one {
     height: 100%;
     width: 33%;
-    // border: 2px solid blue;
-    // background-color: cyan;
     position: relative;
 }
-
 .img_sld_1 {
     height: 100%;
-    width: 103%;
+    width: 100%;
     position: relative;
 }
 .img_h1 {
@@ -245,41 +236,36 @@
     letter-spacing: 4px;
     font-family: "Times New Roman", Times, serif;
 }
+@mixin button($size) {
+    position: absolute;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: $size;
+}
 .btn_1 {
-    position: absolute;
-    background: transparent;
+    @include button(40px);
     top: 370px;
     left: 180px;
     border-color: white;
-    color: white;
-    font-size: 40px;
     border-radius: 85px;
     padding-left: 15px;
-    cursor: pointer;
 }
-.btn_2 {
-    position: absolute;
-    background: transparent;
-    top: 370px;
-    left: 180px;
-    border-color: white;
-    color: white;
-    font-size: 40px;
-    border-radius: 85px;
-    padding-left: 15px;
-    cursor: pointer;
+.btn_1234 {
+    @include button(20px);
+    padding: 20px 40px;
+    margin-top: 50px;
+    border: 1px solid white;
 }
-.btn_3 {
-    position: absolute;
-    background: transparent;
-    top: 370px;
-    left: 180px;
-    border-color: white;
-    color: white;
-    font-size: 40px;
-    border-radius: 85px;
-    padding-left: 15px;
-    cursor: pointer;
+.close_btn {
+    @include button(35px);
+    border: none;
+    top: 535%;
+    right: 40px;
+    padding: 15px;
+}
+.video{
+    @include container();
 }
 .video121 {
     position: absolute;
@@ -287,17 +273,6 @@
     width: 100%;
     top: 530%;
     // z-index: 6;
-}
-.close_btn {
-    position: absolute;
-    border: none;
-    background: transparent;
-    top: 535%;
-    right: 40px;
-    padding: 15px;
-    font-size: 35px;
-    color: white;
-    // background-color: red;
 }
 .content_1 {
     position: absolute;
@@ -317,14 +292,4 @@
     position: relative;
 }
 
-.btn_1234 {
-    position: relative;
-    font-size: 20px;
-    padding: 20px 40px;
-    // opacity: 0.7;
-    margin-top: 50px;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    border: 1px solid white;
-}
+
