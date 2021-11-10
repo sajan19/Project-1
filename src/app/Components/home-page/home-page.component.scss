@@ -204,21 +204,24 @@
 }
 #bg_card {
     // padding-top:150px;
-    height: 65%;
+    height: 75%;
     width: 45%;
     background-color: black;
     position: absolute;
     right: 0;
+    top: 420%;
     z-index: 20;
     // padding-top: 220px;
 }
 #img_float {
-    height: 580px;
-    width: 270px;
-    // width: 30%;
+    height: 548px;
+    width: 256px;
+    top: 412%;
+    left: 78%;
     position: absolute;
-    // right: 10;
-    padding-left: 1030px;
+    /* padding-left: 1030
+px
+; */
     z-index: 30;
 }
 .first {
