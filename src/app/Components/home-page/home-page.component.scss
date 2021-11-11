@@ -291,10 +291,10 @@
     position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px){
     .video {
-        width: 100%;
-        height: auto;
+        width: 200%;
+        // height: auto;
         overflow: hidden;
     }
     .image123 {
@@ -306,5 +306,14 @@
         width: 100%;
         height: auto;
         overflow: hidden;
+    }
+    .heading1{
+        padding-left: 45px;
+    }
+    .heading2{
+        padding-left: 50px;
+    }
+    .paragraph{
+        padding-left: 52px;
     }
 }
