@@ -291,11 +291,45 @@
     position: relative;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .video {
         width: 200%;
         // height: auto;
         overflow: hidden;
+    }
+    .title {
+        left: 12%;
+        top: 25%;
+        font-size: 60px;
+    }
+    .subtitle {
+        left: 12%;
+        top: 32%;
+        font-size: 60px;
+    }
+    #div2 {
+        background: url(../../../assets/bg_img.jpg) no-repeat 10% / cover;
+    }
+    .container_2 {
+        padding: 0px;
+    }
+    .heading1 {
+        padding-top: 45px;
+    }
+    .heading2 {
+        padding-bottom: 30px;
+    }
+    .honda {
+        line-height: 1;
+    }
+    .paragraph {
+        padding-left: 52px;
+        padding-bottom: 7px;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .para2 {
+        padding-bottom: 20px;
     }
     .image123 {
         width: 100%;
@@ -303,17 +337,114 @@
         overflow: hidden;
     }
     .image2 {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
+        width: 40%;
+        height: 480px;
+        top: 88%;
+        left: 56%;
+        position: absolute;
+        // overflow: hidden;
     }
-    .heading1{
+    .image1 {
+        position: absolute;
+        height: 225px;
+        width: 315px;
+        top: 129%;
+        left: 13%;
+        padding: 0px;
+    }
+    .heading1 {
         padding-left: 45px;
     }
-    .heading2{
+    .heading2 {
         padding-left: 50px;
     }
-    .paragraph{
+    .paragraph {
         padding-left: 52px;
+    }
+    .count {
+        padding-left: 50px;
+    }
+    #div4 {
+        height: 38%;
+    }
+    #div5 {
+        height: 70%;
+        padding-top: 0px;
+    }
+    #bg_card {
+        // height: 75%;
+        width: 60%;
+        background-color: black;
+        position: absolute;
+        top: 347%;
+        right: 0;
+        z-index: 2;
+        opacity: 0.97;
+    }
+    .first {
+        padding: 10px;
+    }
+    .second {
+        padding: 10px;
+    }
+    .material-icons {
+        font-size: 30px;
+    }
+    .tit {
+        position: absolute;
+        top: 64%;
+        left: 6%;
+        font-size: 40px;
+        padding: 0px;
+    }
+    .sub {
+        position: absolute;
+        top: 55%;
+        left: 6%;
+        font-size: 20px;
+        padding: 0px;
+    }
+    #img_float {
+        height: 494px;
+        width: 219px;
+        top: 340%;
+        left: 65%;
+        position: absolute;
+        z-index: 3;
+    }
+    #div5 {
+        height: 87%;
+        padding-bottom: 50px;
+    }
+    .container_6 {
+        width: 101%;
+        padding-top: 50px;
+    }
+    .img_sld_1 {
+        height: 70%;
+    }
+    .img_h1 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 30%;
+        color: white;
+        font-size: 23px;
+        letter-spacing: 4px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    .btn_1[_ngcontent-serverApp-c53] {
+        position: absolute;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        font-size: 15px;
+        top: 229px;
+        left: 85px;
+        border-color: white;
+        border-radius: 87px;
+    }
+    .mat-icon {
+        width: 2px;
     }
 }
