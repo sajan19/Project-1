@@ -5,6 +5,7 @@
   background: transparent;
   position: absolute;
   // background-color: pink;
+  margin-top: 28px;
   z-index: 5;
 }
 // .logo {
@@ -127,6 +128,7 @@ a:hover {
   background-color: cyan;
   display: flex;
   height: 100px;
+  position: relative;
 }
 .logo {
   height: 50px;
