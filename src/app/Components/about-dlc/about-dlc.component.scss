@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@mixin  container {
+@mixin container {
     height: 100%;
     width: 100%;
 }
@@ -69,11 +69,11 @@
 }
 .para_1 {
     padding: 0px 80px 30px 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .writeup {
-    @include writeup(140px)
+    @include writeup(140px);
 }
 .writeup_123 {
     @include writeup(0px);
@@ -114,7 +114,7 @@
 }
 .sec_heading {
     padding-left: 120px;
-    @include heading();    
+    @include heading();
 }
 // Section 6
 .container_5 {
@@ -204,4 +204,81 @@
     justify-content: center;
     background-image: url(../../../assets/about_dlc/section_10_bg_1.jpg);
     // padding-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+        top: 200px;
+        left: 110px;
+        font-size: 50px;
+    }
+    .subtitle {
+        top: 250px;
+        left: 110px;
+        font-size: 50px;
+    }
+    .container_2 {
+        height: 35%;
+    }
+    .paragraph {
+        padding: 5px;
+        margin: 60px;
+        font-size: 20px;
+    }
+    .heading1 {
+        padding-top: 60px;
+        padding-left: 25px;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+    }
+    .writeup {
+        padding-bottom: 5px;
+        padding-left: 16px;
+        font-size: 15px;
+    }
+    .para_1 {
+        padding: 0px 0px 30px 0px;
+    }
+    .container_4 {
+        height: 45vh;
+    }
+    .sec_heading {
+        padding-left: 50px;
+        font-size: 35px;
+    }
+    // .slider121{
+    //     height: 200px;
+    // }
+    .ng-image-slider .ng-image-slider-container .main .main-inner .img-div.image-popup {
+        height: 300px;
+        cursor: pointer;
+    }
+    .ng-image-slider .ng-image-slider-container .main .main-inner .img-div img,
+    .ng-image-slider .ng-image-slider-container .main .main-inner .img-div video {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .sec_7_img_1{
+        padding-top: 120px;
+        padding-left: 30px;
+        height: 100%;
+        width: 100%;
+    }
+    .sec_para_1{
+        padding-right: 10px;
+    }
+    .heading_2{
+        font-size: 35px;
+    }
+    .container_8{
+        height: 55%;
+    }
+    .sec_8_img{
+        padding-top: 50px;
+    }
+    .container_10{
+        padding-top: 150px;
+    }
+
 }
