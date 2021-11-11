@@ -40,8 +40,9 @@
 }
   // Section 2
 .container_2{
-    height: 50%;
-    width: 100%;
+    @include half_container();
+    // height: 50%;
+    // width: 100%;
     background-color: white;
   //   border: 2px solid purple;
   //   opacity: 0.7;
@@ -83,15 +84,17 @@
 }
 .part_1{
     // border: 2px solid red;
-    height: 100%;
-    width: 50%;
+    // height: 100%;
+    // width: 50%;
+    @include half_container();
     // background-color: pink;
     top: 100px;
 }
 .part_2{
     // border: 2px solid green;
-    height: 100%;
-    width: 50%;
+    // height: 100%;
+    // width: 50%;
+     @include half_container();
     // background-color: cyan;
 }
 .writeup_1{

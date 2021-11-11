@@ -33,7 +33,6 @@
 .heading1 {
     @include heading();
     padding-top: 90px;
-    
 }
 .heading2 {
     @include heading();
@@ -57,10 +56,11 @@
     position: absolute;
 }
 .image2 {
-    height: 66%;
-    width: 36%;
-    padding-top: 90px;
-    padding-left: 700px;
+    height: 610px;
+    width: 484px;
+    top: 123%;
+    left: 54%;
+    position: absolute;
 }
 
 .section_2 {
@@ -111,7 +111,6 @@
     bottom: 100px;
     left: 60px;
     color: white;
-    
 }
 .card_title {
     @include cardTitle();
@@ -264,7 +263,7 @@
     right: 40px;
     padding: 15px;
 }
-.video{
+.video {
     @include container();
 }
 .video121 {
@@ -292,4 +291,20 @@
     position: relative;
 }
 
-
+@media screen and (max-width: 600px) {
+    .video {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .image123 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .image2 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+}

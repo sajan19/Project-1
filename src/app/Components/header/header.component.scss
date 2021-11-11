@@ -4,25 +4,25 @@
   display: flex;
   background: transparent;
   position: absolute;
-  background-color: none;
+  // background-color: pink;
   z-index: 5;
 }
-.logo {
-  height: 50px;
-  width: 200px;
-  margin-left: 100px;
-  margin-top: 30px;
-  filter: invert(100%);
-}
+// .logo {
+//   height: 50px;
+//   width: 200px;
+//   margin-left: 100px;
+//   margin-top: 30px;
+//   filter: invert(100%);
+// }
 .spacer {
   flex: 1 1 auto;
 }
-.tag {
-  padding: 10px 30px;
-  color: white;
-}
+// .tag {
+//   padding: 10px 30px;
+//   color: white;
+// }
 a {
-  font-size: 1.2rem;
+  font-size: 20px;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
 }
@@ -30,20 +30,20 @@ a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.menu_bar {
-  margin-top: 45px;
-  margin-left: 20px;
-  color: white;
-}
+// .menu_bar {
+//   margin-top: 45px;
+//   margin-left: 20px;
+//   color: white;
+// }
 .menu_bar:hover {
   cursor: pointer;
 }
-.nav_bar {
-  margin-top: 45px;
-  margin-left: 200px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
+// .nav_bar {
+//   margin-top: 45px;
+//   margin-left: 200px;
+//   padding-right: 30px;
+//   padding-left: 30px;
+// }
 .menu_Container {
   height: 100vh;
   width: 100%;
@@ -88,4 +88,76 @@ a:hover {
   filter: invert(100%);
   position: absolute;
   z-index: 213;
+}
+
+// @media screen and (max-width: 600px) {
+//   .container_1 {
+//     display: flex;
+//     flex-direction: column;
+//   }
+//   .nav_bar {
+//     width: 66%;
+//     position: absolute;
+//     top: 20%;
+//     left: 23%;
+//     background-color: red;
+//   }
+//   .logo {
+//     height: 50px;
+//     width: 145px;
+//     margin: 10px;
+//     filter: invert(100%);
+//   }
+//   .tag {
+//     font-size: 14px;
+//     padding: 12px 8px;
+//   }
+//   a {
+//     font-size: 14px;
+//     text-decoration: none;
+//   }
+//   .menu_bar {
+//     position: absolute;
+//     top: 20%;
+//     right: 8%;
+//   }
+// }
+
+.container {
+  background-color: cyan;
+  display: flex;
+  height: 100px;
+}
+.logo {
+  height: 50px;
+  width: 170px;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 45%;
+  filter: invert(100%);
+}
+.nav_bar {
+  // background-color: red;
+  padding: 10px;
+  position: relative;
+  left: 22%;
+}
+.tag {
+  padding: 10px 30px;
+  // background-color: yellow;
+  // font-size: 20px;
+}
+a {
+  font-size: 20px;
+  color: white;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.menu_bar {
+  position: relative;
+  left: 22%;
+  top: 8%;
+  padding: 10px 30px;
+  color: white;
 }
