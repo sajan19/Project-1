@@ -367,10 +367,6 @@
     #div4 {
         height: 38%;
     }
-    #div5 {
-        height: 70%;
-        padding-top: 0px;
-    }
     #bg_card {
         // height: 75%;
         width: 60%;
@@ -413,8 +409,11 @@
         z-index: 3;
     }
     #div5 {
-        height: 87%;
-        padding-bottom: 50px;
+        height: 100%;
+        width: 70%;
+        padding-top: 0px;
+        // background-color: yellow;
+        background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50% / cover;
     }
     .container_6 {
         width: 101%;

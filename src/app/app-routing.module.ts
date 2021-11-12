@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
+// import { DemoComponent } from './Components/demo/demo.component';
 import { ExperiencesComponent } from './Components/experiences/experiences.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
 import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
+import { PageNotFoundComponent } from './Components/page-not-found/page-not-found.component';
 import { PressComponent } from './Components/press/press.component';
 
 const routes: Routes = [
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path: 'our-worlds', component: OurWorldsComponent},
   {path: 'experiences', component: ExperiencesComponent},
   {path: 'gallery', component: GalleryComponent},
+  {path: '**', component: PageNotFoundComponent},
+  // {path: 'demo', component: DemoComponent},
 
 ];
 

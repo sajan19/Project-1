@@ -10,6 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {NgImageSliderModule} from 'ng-image-slider';
 import { HomePageComponent} from './Components/home-page/home-page.component';
+// import { DemoComponent} from './Components/demo/demo.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { PressComponent } from './Components/press/press.component';
@@ -17,6 +18,8 @@ import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 import { ExperiencesComponent } from './Components/experiences/experiences.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 
 
@@ -31,7 +34,8 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
     AboutDlcComponent,
     OurWorldsComponent,
     ExperiencesComponent,
-    GalleryComponent
+    GalleryComponent,
+    // DemoComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -41,7 +45,8 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
     MatCardModule,
     NgImageSliderModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatPaginatorModule
 
     
   ],
